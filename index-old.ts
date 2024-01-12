@@ -32,10 +32,10 @@ const user2 = {
     password: "123123",
 }
 
-const users = User[] = [];
+const users: User[] = [];
 
-function insertUser(user: User){
-    users.push(user);
+function insertUser(user: User) {
+users.push(user);
 }
 
 function getNameFromUser(user: User): string{
